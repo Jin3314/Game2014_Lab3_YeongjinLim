@@ -40,8 +40,7 @@ public class EnemyBehaviour : MonoBehaviour
     {
         if (Time.frameCount % frameDelay == 0) 
         {
-            // var temp_bullet = Instantiate(bulletPrefab);
-            //temp_bullet.transform.position = bulletSpawn.position;
+        
 
             bulletManager.GetBullet(bulletSpawn.position);
         }
